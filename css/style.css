@@ -12,3 +12,23 @@ h1 {
       font-style: italic;
       font-weight: bold;
     }
+
+/* ### POSITIONING ### */
+    .positioning-container {
+      position: relative; /* Referensi untuk elemen yang posisinya absolut */
+      height: 200px;
+      border: 2px solid #020202;
+    }
+
+    .positioned-box {
+      position: absolute; /* Ditempatkan relatif terhadap container */
+      top: 50px;
+      right: 550px;
+      width: 200px;
+      height: 100px;
+      background-color: rgb(255, 98, 80);
+      text-align: center;
+      align-content: center;
+      color: white;
+      font-weight: bold;
+    }    
