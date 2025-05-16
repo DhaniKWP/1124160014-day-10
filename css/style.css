@@ -49,3 +49,21 @@ h1 {
       border: 1px solid black;
       border-radius: 5px;
 }
+/* ### FLEXBOX ### */
+    .flex-container {
+      display: flex; /* Mengaktifkan Flexbox */
+      gap: 10px; /* Jarak antar item */
+      justify-content: center; /* Rata tengah horizontal */
+      background-color: #7e7e7e;
+      padding: 10px;
+    }
+
+    .flex-item {
+      background-color: #8656e0;
+      padding: 20px;
+      border-radius: 5px;
+      color: rgb(238, 7, 7);
+      font-weight: bold;
+      border: 1px solid black;
+}
+    
