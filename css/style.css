@@ -1,3 +1,14 @@
-p {
-  color: red;
+h1 {
+  text-align: center;
 }
+
+/* ### BOX MODEL ### */
+    .box-model {
+      width: 200px; /* Lebar konten */
+      padding: 20px; /* Ruang dalam elemen */
+      border: 5px solid #9a03ff; /* Garis tepi */
+      margin: 20px; /* Jarak luar antar elemen */
+      background-color: #f0b5f5; /* Warna latar */
+      font-style: italic;
+      font-weight: bold;
+    }
