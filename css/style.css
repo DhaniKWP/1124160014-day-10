@@ -1,3 +1,6 @@
+* {
+  font-family: "Archivo Black", sans-serif;
+}
 h1 {
   text-align: center;
 }
@@ -17,7 +20,8 @@ h1 {
     .positioning-container {
       position: relative; /* Referensi untuk elemen yang posisinya absolut */
       height: 200px;
-      border: 2px solid #020202;
+      border: 5px solid #020202;
+      background-color: #f0b5f5;
     }
 
     .positioned-box {
@@ -31,4 +35,17 @@ h1 {
       align-content: center;
       color: white;
       font-weight: bold;
-    }    
+    }  
+
+/* ### DISPLAY DAN LAYOUT ### */
+    .inline-box {
+      display: inline-block;
+      /*Elemenbisaberdampingan,tapimasihbisadiberiukuran*/width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 5px;
+      text-align: center;
+      align-content: center;
+      border: 1px solid black;
+      border-radius: 5px;
+}
